@@ -1,0 +1,131 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Accept	MyServer.cpp	/^int MyServer::Accept()$/;"	f	class:MyServer
+BUFFER_H	buffer.h	2;"	d
+BUFFER_SIZE	main.cpp	18;"	d	file:
+Bind	MyServer.cpp	/^void MyServer::Bind()$/;"	f	class:MyServer
+BlockingQueue	blocking_queue.h	/^class BlockingQueue$/;"	c
+Buffer	buffer.cpp	/^Buffer::Buffer(int _size) {$/;"	f	class:Buffer
+Buffer	buffer.h	/^class Buffer {$/;"	c
+CONNECTION_LIMIT	MyServer.h	13;"	d
+CloseClient	MyServer.cpp	/^void MyServer::CloseClient()$/;"	f	class:MyServer
+Communication	MyServer.cpp	/^void MyServer::Communication()$/;"	f	class:MyServer
+Connect	RicohClient.cpp	/^void RicohClient::Connect()$/;"	f	class:RicohClient
+CreateSocket	MyServer.cpp	/^void MyServer::CreateSocket()$/;"	f	class:MyServer
+CreateSocket	RicohClient.cpp	/^void RicohClient::CreateSocket()$/;"	f	class:RicohClient
+DEFAULT_PORT	main.cpp	15;"	d	file:
+HEADER_SIZE	main.cpp	17;"	d	file:
+Initialize	MyServer.cpp	/^void MyServer::Initialize()$/;"	f	class:MyServer
+Initialize	RicohClient.cpp	/^void RicohClient::Initialize(int port, const char* addr)$/;"	f	class:RicohClient
+InitializeVariable	RicohClient.cpp	/^void RicohClient::InitializeVariable()$/;"	f	class:RicohClient
+LZ4_COMPRESSBOUND	lz4.h	106;"	d
+LZ4_DEPRECATED	lz4.h	317;"	d
+LZ4_DEPRECATED	lz4.h	319;"	d
+LZ4_DEPRECATED	lz4.h	321;"	d
+LZ4_DEPRECATED	lz4.h	324;"	d
+LZ4_DEPRECATE_WARNING_DEFBLOCK	lz4.h	314;"	d
+LZ4_GCC_VERSION	lz4.h	315;"	d
+LZ4_MAX_INPUT_SIZE	lz4.h	105;"	d
+LZ4_MEMORY_USAGE	lz4.h	66;"	d
+LZ4_STREAMDECODESIZE	lz4.h	248;"	d
+LZ4_STREAMDECODESIZE_U64	lz4.h	247;"	d
+LZ4_STREAMSIZE	lz4.h	188;"	d
+LZ4_STREAMSIZE_U64	lz4.h	187;"	d
+LZ4_VERSION_MAJOR	lz4.h	50;"	d
+LZ4_VERSION_MINOR	lz4.h	51;"	d
+LZ4_VERSION_NUMBER	lz4.h	53;"	d
+LZ4_VERSION_RELEASE	lz4.h	52;"	d
+LZ4_streamDecode_t	lz4.h	/^typedef struct { unsigned long long table[LZ4_STREAMDECODESIZE_U64]; } LZ4_streamDecode_t;$/;"	t	typeref:struct:__anon2
+LZ4_stream_t	lz4.h	/^typedef struct { long long table[LZ4_STREAMSIZE_U64]; } LZ4_stream_t;$/;"	t	typeref:struct:__anon1
+Listen	MyServer.cpp	/^void MyServer::Listen()$/;"	f	class:MyServer
+MESSAGE_QUEUE_H	MessageQueue.h	2;"	d
+MQ_SIZE_LIMIT	MessageQueue.h	8;"	d
+MY_SERVER_H	MyServer.h	2;"	d
+MainLoop	MyServer.cpp	/^void MyServer::MainLoop()$/;"	f	class:MyServer
+MessageQueue	MessageQueue.h	/^class MessageQueue {$/;"	c
+MyServer	MyServer.h	/^    MyServer(int _port = 5566): port(_port) {}$/;"	f	class:MyServer
+MyServer	MyServer.h	/^class MyServer {$/;"	c
+PacketInfo	MessageQueue.h	/^    PacketInfo(char* _buffer = NULL, int _length = 0): buffer(_buffer), length(_length) {}$/;"	f	struct:PacketInfo
+PacketInfo	MessageQueue.h	/^struct PacketInfo {$/;"	s
+Pop	MessageQueue.h	/^    void Pop() \/\/ need to free the memory$/;"	f	class:MessageQueue
+Prepare	MyServer.cpp	/^void MyServer::Prepare()$/;"	f	class:MyServer
+Prepare	RicohClient.cpp	/^void RicohClient::Prepare()$/;"	f	class:RicohClient
+Push	MessageQueue.h	/^    void Push(char *buf, int length)$/;"	f	class:MessageQueue
+RICOH_CLIENT_H	RicohClient.h	2;"	d
+RICOH_HOST	RicohClient.cpp	3;"	d	file:
+RICOH_PORT	RicohClient.cpp	6;"	d	file:
+Recv	MyServer.cpp	/^int MyServer::Recv(void *buf, size_t len)$/;"	f	class:MyServer
+RicohClient	RicohClient.h	/^class RicohClient {$/;"	c
+SERVER_ADDR	main.cpp	16;"	d	file:
+Send	MyServer.cpp	/^int MyServer::Send(const void *buf, size_t len)$/;"	f	class:MyServer
+Size	MessageQueue.h	/^    unsigned Size() { return mQueue.size(); }$/;"	f	class:MessageQueue
+THIRTY_MB	buffer.h	3;"	d
+Thread_Client	main.cpp	/^void* Thread_Client(void* ptr)$/;"	f
+Thread_Compress	main.cpp	/^void* Thread_Compress(void* ptr) $/;"	f
+Thread_Cube2Cuboid	main.cpp	/^void* Thread_Cube2Cuboid(void* ptr)$/;"	f
+Thread_Receive	main.cpp	/^void* Thread_Receive(void* ptr)$/;"	f
+Thread_Sphere2Cube	main.cpp	/^void* Thread_Sphere2Cube(void* ptr)$/;"	f
+Transformation	MyServer.cpp	/^void MyServer::Transformation()$/;"	f	class:MyServer
+__M_HEADER_H__	cutIntoFour.cpp	2;"	d	file:
+buffer	MessageQueue.h	/^    char *buffer;$/;"	m	struct:PacketInfo
+buildMiniCuboid	buildMiniCuboid.cpp	/^void buildMiniCuboid(std::vector<cv::Mat*> &frags,$/;"	f
+c2CQueue	main.cpp	/^BlockingQueue<Buffer*> c2CQueue;$/;"	v
+clientAddr	MyServer.h	/^    struct sockaddr_in serverAddr, clientAddr;$/;"	m	class:MyServer	typeref:struct:MyServer::
+clientSockfd	MyServer.h	/^    int serverSockfd, clientSockfd;$/;"	m	class:MyServer
+compressQueue	main.cpp	/^BlockingQueue<Buffer*> compressQueue;$/;"	v
+compressedSize	buffer.h	/^        unsigned int compressedSize;$/;"	m	class:Buffer
+cond_	blocking_queue.h	/^        std::condition_variable cond_;$/;"	m	class:BlockingQueue
+cube2cuboid	cube2cuboid.cpp	/^void cube2cuboid(std::vector<cv::Mat*>& cubeImg, Buffer* buf)$/;"	f
+cutIntoFour	cutIntoFour.cpp	/^void cutIntoFour(std::vector<cv::Mat*> &cubeImg, std::vector<cv::Mat*> &miniImgs)$/;"	f
+data	buffer.h	/^        unsigned char* data;$/;"	m	class:Buffer
+error	RicohClient.cpp	/^void RicohClient::error(const char *msg)$/;"	f	class:RicohClient
+fliplr	mHeader.h	/^inline void fliplr(cv::Mat &matImage)$/;"	f
+fliplr	mHeader.h	/^inline void fliplr(cv::Mat *matImage)$/;"	f
+flipud	mHeader.h	/^inline void flipud(cv::Mat &matImage)$/;"	f
+flipud	mHeader.h	/^inline void flipud(cv::Mat *matImage)$/;"	f
+front	MessageQueue.h	/^    PacketInfo* front() { return mQueue.front(); }$/;"	f	class:MessageQueue
+getAvgTime	main.cpp	/^inline double getAvgTime(int count) {$/;"	f
+heights	buffer.h	/^        std::vector<int> heights;$/;"	m	class:Buffer
+length	MessageQueue.h	/^    int length;$/;"	m	struct:PacketInfo
+m	MessageQueue.h	/^    std::mutex m;$/;"	m	class:MessageQueue
+mQueue	MessageQueue.h	/^    std::queue<PacketInfo*> mQueue;$/;"	m	class:MessageQueue
+main	main.cpp	/^int main(int argc, char **argv)$/;"	f
+mergeCuboidPieces	mergeCuboidPieces.cpp	/^cv::Mat* mergeCuboidPieces(std::vector<cv::Mat*> outputs_f, std::vector<cv::Mat*> outputs_t, std::vector<cv::Mat*> outputs_r, int cuboidFaceIndex)$/;"	f
+mutex_	blocking_queue.h	/^        std::mutex mutex_;$/;"	m	class:BlockingQueue
+pointers	buffer.h	/^        std::vector<unsigned char*> pointers;$/;"	m	class:Buffer
+pop	blocking_queue.h	/^        T pop()$/;"	f	class:BlockingQueue
+pop	blocking_queue.h	/^        void pop(T& item)$/;"	f	class:BlockingQueue
+port	MyServer.h	/^    int port;$/;"	m	class:MyServer
+push	blocking_queue.h	/^        void push(T&& item)$/;"	f	class:BlockingQueue
+push	blocking_queue.h	/^        void push(const T& item)$/;"	f	class:BlockingQueue
+queue_	blocking_queue.h	/^        std::queue<T> queue_;$/;"	m	class:BlockingQueue
+rot90	mUtils.cpp	/^void rot90(cv::Mat &matImage, int k){$/;"	f
+rot90	mUtils.cpp	/^void rot90(cv::Mat *matImage, int k){$/;"	f
+s2CQueue	main.cpp	/^BlockingQueue<Buffer*> s2CQueue;$/;"	v
+sendQueue	main.cpp	/^BlockingQueue<Buffer*> sendQueue;$/;"	v
+separateCubeMini	separateCubeMini.cpp	/^void separateCubeMini(std::vector<cv::Mat*> &miniImgs, std::vector<cv::Mat*> &frags,$/;"	f
+serv_addr	RicohClient.h	/^	struct sockaddr_in serv_addr;$/;"	m	class:RicohClient	typeref:struct:RicohClient::sockaddr_in
+serverAddr	MyServer.h	/^    struct sockaddr_in serverAddr, clientAddr;$/;"	m	class:MyServer	typeref:struct:MyServer::sockaddr_in
+serverSockfd	MyServer.h	/^    int serverSockfd, clientSockfd;$/;"	m	class:MyServer
+setTimer	main.cpp	/^void setTimer() {$/;"	f
+sizes	buffer.h	/^        std::vector<int> sizes;$/;"	m	class:Buffer
+socket_destroy	RicohClient.cpp	/^void RicohClient::socket_destroy()$/;"	f	class:RicohClient
+socket_ready	RicohClient.h	/^	bool socket_ready;$/;"	m	class:RicohClient
+socket_recv_n	RicohClient.cpp	/^int RicohClient::socket_recv_n(void* buffer, int size)$/;"	f	class:RicohClient
+sockfd	RicohClient.h	/^	int sockfd;$/;"	m	class:RicohClient
+sys_exit	MyServer.h	/^inline void sys_exit(const char *msg) { std::cerr << msg << std::endl; exit(0); }$/;"	f
+table	lz4.h	/^typedef struct { long long table[LZ4_STREAMSIZE_U64]; } LZ4_stream_t;$/;"	m	struct:__anon1
+table	lz4.h	/^typedef struct { unsigned long long table[LZ4_STREAMDECODESIZE_U64]; } LZ4_streamDecode_t;$/;"	m	struct:__anon2
+test	mHeader.h	/^inline void test() { std::cout << "test" << std::endl; }$/;"	f
+test_buildMiniCuboid	buildMiniCuboid.cpp	/^void test_buildMiniCuboid()$/;"	f
+test_cutIntoFour	cutIntoFour.cpp	/^void test_cutIntoFour()$/;"	f
+test_mergeCuboidPieces	mergeCuboidPieces.cpp	/^void test_mergeCuboidPieces()$/;"	f
+test_separateCubeMini	separateCubeMini.cpp	/^void test_separateCubeMini()$/;"	f
+timer	main.cpp	/^auto timer = chrono::high_resolution_clock::now();$/;"	v
+widths	buffer.h	/^        std::vector<int> widths;$/;"	m	class:Buffer
+~Buffer	buffer.cpp	/^Buffer::~Buffer() {$/;"	f	class:Buffer
+~PacketInfo	MessageQueue.h	/^    ~PacketInfo() {$/;"	f	struct:PacketInfo
